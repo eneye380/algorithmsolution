@@ -42,7 +42,7 @@ public class TestSolution {
         System.out.println("*Test2: Character in Strings*");
         System.out.println(cstr);
         System.out.println(solution.find_chars2("inyene", "eneye"));
-        System.out.println(solution.find_chars3("inyene", "eneye"));
+        
         //Test: Array Compaction
         System.out.println("**Test3: Array Compaction**");
         int arrc[] = {1, 3, 7, 7, 8, 9, 9, 9, 10, 10, 11, 11, 15, 15};

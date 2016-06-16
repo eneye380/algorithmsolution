@@ -17,31 +17,9 @@ public class Solution {
     //Depth First Tree Traversal
 
     //Characters in Strings - Order N*N
-    public String find_chars1(String string1, String string2) {
-        String result = "";
-        String temp = "";
-
-        char[] characters1 = string1.toCharArray();
-        char[] characters2 = string2.toCharArray();
-
-        for (char c1 : characters1) {
-            for (char c2 : characters2) {
-                if (c1 == c2) {
-                    String s = c1 + "";
-                    if (!temp.contains(s)) {
-                        result += s;
-                        temp += s;
-                    }
-
-                }
-            }
-            temp = "";
-        }
-
-        return result;
-    }
+    
 //Characters in Strings - Order N*N
-    public String find_chars2(String string1, String string2) {
+    public String find_chars1(String string1, String string2) {
         String result = "";
 
         for (int i = 0; i < string1.length(); i++) {
@@ -56,12 +34,9 @@ public class Solution {
         return result;
     }
     //Characters in Strings - Order N
-    public String find_chars3(String string1, String string2) {
-        String result = "";
-
-        result = string1.concat(string2);
-
-        return result;
+    public String find_chars2(String string1, String string2) {
+        //
+        return "";
     }
 
     //Array Compaction
